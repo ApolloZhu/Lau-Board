@@ -29,7 +29,7 @@
         <scene sceneID="fff-Ny-Jh7">
             <objects>
                 <collectionViewController title="Sound Board" id="99M-LN-81n" customClass="CollectionViewController" customModule="Lau_Board" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="Gqe-vh-ASw">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="Gqe-vh-ASw" customClass="CollectionView" customModule="Lau_Board" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -47,22 +47,20 @@
                                     <rect key="frame" x="0.0" y="0.0" width="180" height="101"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n4Y-4D-bFZ">
-                                            <rect key="frame" x="0.0" y="0.0" width="180" height="101"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                            <state key="normal" title="Sound Name">
-                                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                            <connections>
-                                                <action selector="playSound:" destination="99M-LN-81n" eventType="touchUpInside" id="gbU-W6-OyA"/>
-                                            </connections>
-                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cRO-Y2-uID">
+                                            <rect key="frame" x="20" y="20" width="140" height="61"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                 </view>
-                                <connections>
-                                    <outlet property="titleButton" destination="n4Y-4D-bFZ" id="TCP-Aa-BGb"/>
-                                </connections>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="cRO-Y2-uID" secondAttribute="trailing" constant="20" id="Ew5-nz-Ugx"/>
+                                    <constraint firstItem="cRO-Y2-uID" firstAttribute="top" secondItem="1bD-NW-5gZ" secondAttribute="top" constant="20" id="IMp-ri-HeS"/>
+                                    <constraint firstItem="cRO-Y2-uID" firstAttribute="leading" secondItem="1bD-NW-5gZ" secondAttribute="leading" constant="20" id="Iax-bP-1B8"/>
+                                    <constraint firstAttribute="bottom" secondItem="cRO-Y2-uID" secondAttribute="bottom" constant="20" id="Ris-GE-eIE"/>
+                                </constraints>
                             </collectionViewCell>
                         </cells>
                         <connections>

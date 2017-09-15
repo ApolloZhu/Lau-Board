@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="13189.4" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oh5-sa-Q3Z">
+    <device id="appleTV" orientation="landscape">
+        <adaptation id="light"/>
+    </device>
+    <dependencies>
+        <deployment identifier="tvOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13165.3"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Collection View Controller-->
+        <scene sceneID="2Rd-Kg-nzJ">
+            <objects>
+                <collectionViewController id="oh5-sa-Q3Z" customClass="CollectionViewController" customModule="Lau_Board_tvOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="dXY-zr-aMg">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="WzU-lc-prd">
+                            <size key="itemSize" width="500" height="250"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="50" minY="0.0" maxX="50" maxY="50"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" contentMode="center" reuseIdentifier="cell" id="rOe-uj-8VB" customClass="CollectionViewCell" customModule="Lau_Board_tvOS" customModuleProvider="target">
+                                <rect key="frame" x="50" y="0.0" width="500" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="500" height="250"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F2E-N6-1Us">
+                                            <rect key="frame" x="20" y="20" width="461" height="210"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="F2E-N6-1Us" firstAttribute="top" secondItem="rOe-uj-8VB" secondAttribute="top" constant="20" id="Moq-Bz-3W3"/>
+                                    <constraint firstItem="F2E-N6-1Us" firstAttribute="centerX" secondItem="rOe-uj-8VB" secondAttribute="centerX" id="fdb-gR-s1m"/>
+                                    <constraint firstItem="F2E-N6-1Us" firstAttribute="leading" secondItem="rOe-uj-8VB" secondAttribute="leading" constant="20" id="qke-US-obS"/>
+                                    <constraint firstItem="F2E-N6-1Us" firstAttribute="centerY" secondItem="rOe-uj-8VB" secondAttribute="centerY" id="xuH-pY-xEt"/>
+                                </constraints>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="oh5-sa-Q3Z" id="KDV-90-IsY"/>
+                            <outlet property="delegate" destination="oh5-sa-Q3Z" id="3T5-ZN-3OL"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oIo-KQ-elt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1067" y="519"/>
+        </scene>
+    </scenes>
+</document>
