@@ -35,6 +35,32 @@
 		52D4A3F01F5DCF4E00563D41 /* LauQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D4A3EF1F5DCF4E00563D41 /* LauQuote.swift */; };
 		52D4A3F11F5DD02D00563D41 /* LauQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D4A3EF1F5DCF4E00563D41 /* LauQuote.swift */; };
 		52D4A3F21F5DD02F00563D41 /* Lau.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D4A3ED1F5DCBBF00563D41 /* Lau.swift */; };
+		52DF8FC61F6C5C0700E5E9CC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DF8FC41F6C5C0700E5E9CC /* Interface.storyboard */; };
+		52DF8FC81F6C5C0700E5E9CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DF8FC71F6C5C0700E5E9CC /* Assets.xcassets */; };
+		52DF8FCF1F6C5C0800E5E9CC /* Lau Board watchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 52DF8FCE1F6C5C0800E5E9CC /* Lau Board watchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		52DF8FD41F6C5C0800E5E9CC /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF8FD31F6C5C0800E5E9CC /* InterfaceController.swift */; };
+		52DF8FD61F6C5C0800E5E9CC /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF8FD51F6C5C0800E5E9CC /* ExtensionDelegate.swift */; };
+		52DF8FD81F6C5C0800E5E9CC /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF8FD71F6C5C0800E5E9CC /* NotificationController.swift */; };
+		52DF8FDA1F6C5C0800E5E9CC /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF8FD91F6C5C0800E5E9CC /* ComplicationController.swift */; };
+		52DF8FDC1F6C5C0800E5E9CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DF8FDB1F6C5C0800E5E9CC /* Assets.xcassets */; };
+		52DF8FE11F6C5C0800E5E9CC /* Lau Board watchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 52DF8FC21F6C5C0700E5E9CC /* Lau Board watchOS.app */; };
+		52DF8FEA1F6C5C2C00E5E9CC /* Lau.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D4A3ED1F5DCBBF00563D41 /* Lau.swift */; };
+		52DF8FEB1F6C5C2C00E5E9CC /* LauQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D4A3EF1F5DCF4E00563D41 /* LauQuote.swift */; };
+		52DF90081F6C5C4700E5E9CC /* allright.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2091EE9D215000449A3 /* allright.wav */; };
+		52DF90091F6C5C4700E5E9CC /* anyquestions.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A20A1EE9D215000449A3 /* anyquestions.wav */; };
+		52DF900A1F6C5C4700E5E9CC /* aye.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A20B1EE9D215000449A3 /* aye.wav */; };
+		52DF900B1F6C5C4700E5E9CC /* candobetter.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A20C1EE9D215000449A3 /* candobetter.wav */; };
+		52DF900C1F6C5C4700E5E9CC /* doable.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A20D1EE9D215000449A3 /* doable.wav */; };
+		52DF900D1F6C5C4700E5E9CC /* java.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A20E1EE9D215000449A3 /* java.wav */; };
+		52DF900E1F6C5C4700E5E9CC /* lunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A20F1EE9D215000449A3 /* lunch.wav */; };
+		52DF900F1F6C5C4700E5E9CC /* moses.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2101EE9D215000449A3 /* moses.wav */; };
+		52DF90101F6C5C4700E5E9CC /* ohh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2111EE9D215000449A3 /* ohh.wav */; };
+		52DF90111F6C5C4700E5E9CC /* ohno.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2121EE9D215000449A3 /* ohno.wav */; };
+		52DF90121F6C5C4700E5E9CC /* ok.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2131EE9D215000449A3 /* ok.wav */; };
+		52DF90131F6C5C4700E5E9CC /* putawayyourcellphone.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2141EE9D215000449A3 /* putawayyourcellphone.wav */; };
+		52DF90141F6C5C4700E5E9CC /* seemepls.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2151EE9D215000449A3 /* seemepls.wav */; };
+		52DF90151F6C5C4700E5E9CC /* verydoable.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2161EE9D215000449A3 /* verydoable.wav */; };
+		52DF90171F6C64EB00E5E9CC /* TableGroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF90161F6C64EB00E5E9CC /* TableGroupController.swift */; };
 		52F9CD271F5DE8A50037A4B5 /* CollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9CD251F5DE8A50037A4B5 /* CollectionViewItem.swift */; };
 		52F9CD281F5DE8A50037A4B5 /* CollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52F9CD261F5DE8A50037A4B5 /* CollectionViewItem.xib */; };
 		52F9CD291F5DEF7B0037A4B5 /* allright.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2091EE9D215000449A3 /* allright.wav */; };
@@ -52,6 +78,48 @@
 		52F9CD351F5DEF7B0037A4B5 /* seemepls.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2151EE9D215000449A3 /* seemepls.wav */; };
 		52F9CD361F5DEF7B0037A4B5 /* verydoable.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2161EE9D215000449A3 /* verydoable.wav */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52DF8FD01F6C5C0800E5E9CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C63A1E91EE9C874000449A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52DF8FCD1F6C5C0800E5E9CC;
+			remoteInfo = "Lau Board watchOS Extension";
+		};
+		52DF8FDF1F6C5C0800E5E9CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C63A1E91EE9C874000449A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52DF8FC11F6C5C0700E5E9CC;
+			remoteInfo = "Lau Board watchOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		52DF8FE71F6C5C0800E5E9CC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				52DF8FCF1F6C5C0800E5E9CC /* Lau Board watchOS Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF8FE91F6C5C0800E5E9CC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				52DF8FE11F6C5C0800E5E9CC /* Lau Board watchOS.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0C63A1F11EE9C874000449A3 /* Lau Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lau Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +153,19 @@
 		52D4A3E71F5DC59200563D41 /* Lau_Board_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lau_Board_macOS.entitlements; sourceTree = "<group>"; };
 		52D4A3ED1F5DCBBF00563D41 /* Lau.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lau.swift; sourceTree = "<group>"; };
 		52D4A3EF1F5DCF4E00563D41 /* LauQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauQuote.swift; sourceTree = "<group>"; };
+		52DF8FC21F6C5C0700E5E9CC /* Lau Board watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lau Board watchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DF8FC51F6C5C0700E5E9CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		52DF8FC71F6C5C0700E5E9CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52DF8FC91F6C5C0700E5E9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52DF8FCE1F6C5C0800E5E9CC /* Lau Board watchOS Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Lau Board watchOS Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DF8FD31F6C5C0800E5E9CC /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		52DF8FD51F6C5C0800E5E9CC /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		52DF8FD71F6C5C0800E5E9CC /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		52DF8FD91F6C5C0800E5E9CC /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		52DF8FDB1F6C5C0800E5E9CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52DF8FDD1F6C5C0800E5E9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52DF8FDE1F6C5C0800E5E9CC /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		52DF90161F6C64EB00E5E9CC /* TableGroupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableGroupController.swift; sourceTree = "<group>"; };
 		52F9CD251F5DE8A50037A4B5 /* CollectionViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewItem.swift; sourceTree = "<group>"; };
 		52F9CD261F5DE8A50037A4B5 /* CollectionViewItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewItem.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +185,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		52DF8FCB1F6C5C0800E5E9CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -113,6 +201,8 @@
 				52D4A3EC1F5DCBAA00563D41 /* Shared */,
 				0C63A1F31EE9C874000449A3 /* Lau Board */,
 				52D4A3DC1F5DC59200563D41 /* Lau Board macOS */,
+				52DF8FC31F6C5C0700E5E9CC /* Lau Board watchOS */,
+				52DF8FD21F6C5C0800E5E9CC /* Lau Board watchOS Extension */,
 				0C63A1F21EE9C874000449A3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -122,6 +212,8 @@
 			children = (
 				0C63A1F11EE9C874000449A3 /* Lau Board.app */,
 				52D4A3DB1F5DC59200563D41 /* Lau Board macOS.app */,
+				52DF8FC21F6C5C0700E5E9CC /* Lau Board watchOS.app */,
+				52DF8FCE1F6C5C0800E5E9CC /* Lau Board watchOS Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -186,6 +278,31 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
+		52DF8FC31F6C5C0700E5E9CC /* Lau Board watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				52DF8FC41F6C5C0700E5E9CC /* Interface.storyboard */,
+				52DF8FC71F6C5C0700E5E9CC /* Assets.xcassets */,
+				52DF8FC91F6C5C0700E5E9CC /* Info.plist */,
+			);
+			path = "Lau Board watchOS";
+			sourceTree = "<group>";
+		};
+		52DF8FD21F6C5C0800E5E9CC /* Lau Board watchOS Extension */ = {
+			isa = PBXGroup;
+			children = (
+				52DF8FD31F6C5C0800E5E9CC /* InterfaceController.swift */,
+				52DF90161F6C64EB00E5E9CC /* TableGroupController.swift */,
+				52DF8FD51F6C5C0800E5E9CC /* ExtensionDelegate.swift */,
+				52DF8FD71F6C5C0800E5E9CC /* NotificationController.swift */,
+				52DF8FD91F6C5C0800E5E9CC /* ComplicationController.swift */,
+				52DF8FDB1F6C5C0800E5E9CC /* Assets.xcassets */,
+				52DF8FDD1F6C5C0800E5E9CC /* Info.plist */,
+				52DF8FDE1F6C5C0800E5E9CC /* PushNotificationPayload.apns */,
+			);
+			path = "Lau Board watchOS Extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -196,10 +313,12 @@
 				0C63A1ED1EE9C874000449A3 /* Sources */,
 				0C63A1EE1EE9C874000449A3 /* Frameworks */,
 				0C63A1EF1EE9C874000449A3 /* Resources */,
+				52DF8FE91F6C5C0800E5E9CC /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				52DF8FE01F6C5C0800E5E9CC /* PBXTargetDependency */,
 			);
 			name = "Lau Board";
 			productName = "Lau Board";
@@ -223,6 +342,40 @@
 			productReference = 52D4A3DB1F5DC59200563D41 /* Lau Board macOS.app */;
 			productType = "com.apple.product-type.application";
 		};
+		52DF8FC11F6C5C0700E5E9CC /* Lau Board watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DF8FE81F6C5C0800E5E9CC /* Build configuration list for PBXNativeTarget "Lau Board watchOS" */;
+			buildPhases = (
+				52DF8FC01F6C5C0700E5E9CC /* Resources */,
+				52DF8FE71F6C5C0800E5E9CC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52DF8FD11F6C5C0800E5E9CC /* PBXTargetDependency */,
+			);
+			name = "Lau Board watchOS";
+			productName = "Lau Board watchOS";
+			productReference = 52DF8FC21F6C5C0700E5E9CC /* Lau Board watchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		52DF8FCD1F6C5C0800E5E9CC /* Lau Board watchOS Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DF8FE61F6C5C0800E5E9CC /* Build configuration list for PBXNativeTarget "Lau Board watchOS Extension" */;
+			buildPhases = (
+				52DF8FCA1F6C5C0800E5E9CC /* Sources */,
+				52DF8FCB1F6C5C0800E5E9CC /* Frameworks */,
+				52DF8FCC1F6C5C0800E5E9CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lau Board watchOS Extension";
+			productName = "Lau Board watchOS Extension";
+			productReference = 52DF8FCE1F6C5C0800E5E9CC /* Lau Board watchOS Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -243,6 +396,16 @@
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
+					52DF8FC11F6C5C0700E5E9CC = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = KZ7D8X3PRK;
+						ProvisioningStyle = Automatic;
+					};
+					52DF8FCD1F6C5C0800E5E9CC = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = KZ7D8X3PRK;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 0C63A1EC1EE9C874000449A3 /* Build configuration list for PBXProject "Lau Board" */;
@@ -260,6 +423,8 @@
 			targets = (
 				0C63A1F01EE9C874000449A3 /* Lau Board */,
 				52D4A3DA1F5DC59200563D41 /* Lau Board macOS */,
+				52DF8FC11F6C5C0700E5E9CC /* Lau Board watchOS */,
+				52DF8FCD1F6C5C0800E5E9CC /* Lau Board watchOS Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -313,6 +478,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		52DF8FC01F6C5C0700E5E9CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DF8FC81F6C5C0700E5E9CC /* Assets.xcassets in Resources */,
+				52DF8FC61F6C5C0700E5E9CC /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF8FCC1F6C5C0800E5E9CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DF90121F6C5C4700E5E9CC /* ok.wav in Resources */,
+				52DF900B1F6C5C4700E5E9CC /* candobetter.wav in Resources */,
+				52DF900C1F6C5C4700E5E9CC /* doable.wav in Resources */,
+				52DF90111F6C5C4700E5E9CC /* ohno.wav in Resources */,
+				52DF900F1F6C5C4700E5E9CC /* moses.wav in Resources */,
+				52DF90091F6C5C4700E5E9CC /* anyquestions.wav in Resources */,
+				52DF90151F6C5C4700E5E9CC /* verydoable.wav in Resources */,
+				52DF90141F6C5C4700E5E9CC /* seemepls.wav in Resources */,
+				52DF8FDC1F6C5C0800E5E9CC /* Assets.xcassets in Resources */,
+				52DF900A1F6C5C4700E5E9CC /* aye.wav in Resources */,
+				52DF90131F6C5C4700E5E9CC /* putawayyourcellphone.wav in Resources */,
+				52DF90081F6C5C4700E5E9CC /* allright.wav in Resources */,
+				52DF900D1F6C5C4700E5E9CC /* java.wav in Resources */,
+				52DF90101F6C5C4700E5E9CC /* ohh.wav in Resources */,
+				52DF900E1F6C5C4700E5E9CC /* lunch.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -340,7 +536,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		52DF8FCA1F6C5C0800E5E9CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DF8FD81F6C5C0800E5E9CC /* NotificationController.swift in Sources */,
+				52DF8FDA1F6C5C0800E5E9CC /* ComplicationController.swift in Sources */,
+				52DF8FD61F6C5C0800E5E9CC /* ExtensionDelegate.swift in Sources */,
+				52DF8FEA1F6C5C2C00E5E9CC /* Lau.swift in Sources */,
+				52DF8FD41F6C5C0800E5E9CC /* InterfaceController.swift in Sources */,
+				52DF8FEB1F6C5C2C00E5E9CC /* LauQuote.swift in Sources */,
+				52DF90171F6C64EB00E5E9CC /* TableGroupController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52DF8FD11F6C5C0800E5E9CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52DF8FCD1F6C5C0800E5E9CC /* Lau Board watchOS Extension */;
+			targetProxy = 52DF8FD01F6C5C0800E5E9CC /* PBXContainerItemProxy */;
+		};
+		52DF8FE01F6C5C0800E5E9CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52DF8FC11F6C5C0700E5E9CC /* Lau Board watchOS */;
+			targetProxy = 52DF8FDF1F6C5C0800E5E9CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0C63A1F81EE9C874000449A3 /* Main.storyboard */ = {
@@ -365,6 +588,14 @@
 				52D4A3E41F5DC59200563D41 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52DF8FC41F6C5C0700E5E9CC /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52DF8FC51F6C5C0700E5E9CC /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -545,6 +776,92 @@
 			};
 			name = Release;
 		};
+		52DF8FE21F6C5C0800E5E9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KZ7D8X3PRK;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IBSC_MODULE = Lau_Board_watchOS_Extension;
+				INFOPLIST_FILE = "Lau Board watchOS/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.apollozhu.Lau-Board.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		52DF8FE31F6C5C0800E5E9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KZ7D8X3PRK;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IBSC_MODULE = Lau_Board_watchOS_Extension;
+				INFOPLIST_FILE = "Lau Board watchOS/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.apollozhu.Lau-Board.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		52DF8FE41F6C5C0800E5E9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KZ7D8X3PRK;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Lau Board watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.apollozhu.Lau-Board.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		52DF8FE51F6C5C0800E5E9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KZ7D8X3PRK;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Lau Board watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.apollozhu.Lau-Board.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -571,6 +888,24 @@
 			buildConfigurations = (
 				52D4A3E91F5DC59200563D41 /* Debug */,
 				52D4A3EA1F5DC59200563D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DF8FE61F6C5C0800E5E9CC /* Build configuration list for PBXNativeTarget "Lau Board watchOS Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DF8FE41F6C5C0800E5E9CC /* Debug */,
+				52DF8FE51F6C5C0800E5E9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DF8FE81F6C5C0800E5E9CC /* Build configuration list for PBXNativeTarget "Lau Board watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DF8FE21F6C5C0800E5E9CC /* Debug */,
+				52DF8FE31F6C5C0800E5E9CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

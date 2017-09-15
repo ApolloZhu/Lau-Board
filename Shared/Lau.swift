@@ -8,11 +8,30 @@
 
 import AVFoundation
 
+fileprivate protocol Player {
+    func start()
+}
+
+#if os(watchOS)
+    import WatchKit
+    extension WKAudioFilePlayer: Player {
+        func start() {
+            if status == .readyToPlay {
+                play()
+            }
+        }
+    }
+#endif
+
+@available(watchOSApplicationExtension 3.0, *)
+extension AVAudioPlayer: Player { func start() { play() } }
+
 public class Lau: NSObject, AVAudioPlayerDelegate {
     public static let only = Lau()
     private override init() { }
 
-    private var audioPlayer: AVAudioPlayer?
+    private var player: Player?
+
     #if !os(macOS)
     private lazy var audioSession: AVAudioSession = .init()
     #endif
@@ -23,17 +42,28 @@ public class Lau: NSObject, AVAudioPlayerDelegate {
 
     public func speakQuote(_ quote: LauQuote) {
         // Create audio player with sound file
-        audioPlayer = try? AVAudioPlayer(contentsOf: quote.fileURL)
-        audioPlayer?.prepareToPlay()
-        audioPlayer?.delegate = self
-        // Play sound using audio player
-        #if !os(macOS)
-            try? audioSession.setCategory(AVAudioSessionCategoryPlayback)
-            try? audioSession.setActive(true, with: .notifyOthersOnDeactivation)
-        #endif
-        audioPlayer?.play()
+        let url = quote.fileURL!
+        if #available(watchOSApplicationExtension 3.0, *) {
+            player = {
+                let audioPlayer = try? AVAudioPlayer(contentsOf: url)
+                audioPlayer?.prepareToPlay()
+                audioPlayer?.delegate = self
+                return audioPlayer
+            }()
+            // Play sound using audio player
+            #if !os(macOS)
+                try? audioSession.setCategory(AVAudioSessionCategoryPlayback)
+                try? audioSession.setActive(true, with: .notifyOthersOnDeactivation)
+            #endif
+        } else {
+            #if os(watchOS)
+                player = WKAudioFilePlayer(playerItem: .init(asset: .init(url: url)))
+            #endif
+        }
+        player?.start()
     }
 
+    @available(watchOSApplicationExtension 3.0, *)
     public func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
         #if !os(macOS)
             try? audioSession.setActive(false, with: .notifyOthersOnDeactivation)
