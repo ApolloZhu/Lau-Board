@@ -27,6 +27,30 @@
 		0C63A2231EE9D215000449A3 /* seemepls.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2151EE9D215000449A3 /* seemepls.wav */; };
 		0C63A2241EE9D215000449A3 /* verydoable.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2161EE9D215000449A3 /* verydoable.wav */; };
 		52D4A3D61F5DBB4300563D41 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D4A3D51F5DBB4300563D41 /* CollectionViewCell.swift */; };
+		52D4A3DE1F5DC59200563D41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D4A3DD1F5DC59200563D41 /* AppDelegate.swift */; };
+		52D4A3E01F5DC59200563D41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D4A3DF1F5DC59200563D41 /* ViewController.swift */; };
+		52D4A3E21F5DC59200563D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D4A3E11F5DC59200563D41 /* Assets.xcassets */; };
+		52D4A3E51F5DC59200563D41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D4A3E31F5DC59200563D41 /* Main.storyboard */; };
+		52D4A3EE1F5DCBBF00563D41 /* Lau.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D4A3ED1F5DCBBF00563D41 /* Lau.swift */; };
+		52D4A3F01F5DCF4E00563D41 /* LauQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D4A3EF1F5DCF4E00563D41 /* LauQuote.swift */; };
+		52D4A3F11F5DD02D00563D41 /* LauQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D4A3EF1F5DCF4E00563D41 /* LauQuote.swift */; };
+		52D4A3F21F5DD02F00563D41 /* Lau.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D4A3ED1F5DCBBF00563D41 /* Lau.swift */; };
+		52F9CD271F5DE8A50037A4B5 /* CollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9CD251F5DE8A50037A4B5 /* CollectionViewItem.swift */; };
+		52F9CD281F5DE8A50037A4B5 /* CollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52F9CD261F5DE8A50037A4B5 /* CollectionViewItem.xib */; };
+		52F9CD291F5DEF7B0037A4B5 /* allright.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2091EE9D215000449A3 /* allright.wav */; };
+		52F9CD2A1F5DEF7B0037A4B5 /* anyquestions.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A20A1EE9D215000449A3 /* anyquestions.wav */; };
+		52F9CD2B1F5DEF7B0037A4B5 /* aye.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A20B1EE9D215000449A3 /* aye.wav */; };
+		52F9CD2C1F5DEF7B0037A4B5 /* candobetter.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A20C1EE9D215000449A3 /* candobetter.wav */; };
+		52F9CD2D1F5DEF7B0037A4B5 /* doable.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A20D1EE9D215000449A3 /* doable.wav */; };
+		52F9CD2E1F5DEF7B0037A4B5 /* java.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A20E1EE9D215000449A3 /* java.wav */; };
+		52F9CD2F1F5DEF7B0037A4B5 /* lunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A20F1EE9D215000449A3 /* lunch.wav */; };
+		52F9CD301F5DEF7B0037A4B5 /* moses.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2101EE9D215000449A3 /* moses.wav */; };
+		52F9CD311F5DEF7B0037A4B5 /* ohh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2111EE9D215000449A3 /* ohh.wav */; };
+		52F9CD321F5DEF7B0037A4B5 /* ohno.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2121EE9D215000449A3 /* ohno.wav */; };
+		52F9CD331F5DEF7B0037A4B5 /* ok.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2131EE9D215000449A3 /* ok.wav */; };
+		52F9CD341F5DEF7B0037A4B5 /* putawayyourcellphone.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2141EE9D215000449A3 /* putawayyourcellphone.wav */; };
+		52F9CD351F5DEF7B0037A4B5 /* seemepls.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2151EE9D215000449A3 /* seemepls.wav */; };
+		52F9CD361F5DEF7B0037A4B5 /* verydoable.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2161EE9D215000449A3 /* verydoable.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,10 +76,28 @@
 		0C63A2151EE9D215000449A3 /* seemepls.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = seemepls.wav; sourceTree = "<group>"; };
 		0C63A2161EE9D215000449A3 /* verydoable.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = verydoable.wav; sourceTree = "<group>"; };
 		52D4A3D51F5DBB4300563D41 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		52D4A3DB1F5DC59200563D41 /* Lau Board macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lau Board macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D4A3DD1F5DC59200563D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52D4A3DF1F5DC59200563D41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52D4A3E11F5DC59200563D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52D4A3E41F5DC59200563D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52D4A3E61F5DC59200563D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D4A3E71F5DC59200563D41 /* Lau_Board_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lau_Board_macOS.entitlements; sourceTree = "<group>"; };
+		52D4A3ED1F5DCBBF00563D41 /* Lau.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lau.swift; sourceTree = "<group>"; };
+		52D4A3EF1F5DCF4E00563D41 /* LauQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauQuote.swift; sourceTree = "<group>"; };
+		52F9CD251F5DE8A50037A4B5 /* CollectionViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewItem.swift; sourceTree = "<group>"; };
+		52F9CD261F5DE8A50037A4B5 /* CollectionViewItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewItem.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0C63A1EE1EE9C874000449A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D4A3D81F5DC59200563D41 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -68,7 +110,9 @@
 		0C63A1E81EE9C874000449A3 = {
 			isa = PBXGroup;
 			children = (
+				52D4A3EC1F5DCBAA00563D41 /* Shared */,
 				0C63A1F31EE9C874000449A3 /* Lau Board */,
+				52D4A3DC1F5DC59200563D41 /* Lau Board macOS */,
 				0C63A1F21EE9C874000449A3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				0C63A1F11EE9C874000449A3 /* Lau Board.app */,
+				52D4A3DB1F5DC59200563D41 /* Lau Board macOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,7 +136,6 @@
 				0C63A1FB1EE9C875000449A3 /* Assets.xcassets */,
 				0C63A1FD1EE9C875000449A3 /* LaunchScreen.storyboard */,
 				0C63A2001EE9C875000449A3 /* Info.plist */,
-				0C63A2081EE9D0B7000449A3 /* Sound Effects */,
 			);
 			path = "Lau Board";
 			sourceTree = "<group>";
@@ -114,7 +158,32 @@
 				0C63A2151EE9D215000449A3 /* seemepls.wav */,
 				0C63A2161EE9D215000449A3 /* verydoable.wav */,
 			);
-			name = "Sound Effects";
+			path = "Sound Effects";
+			sourceTree = "<group>";
+		};
+		52D4A3DC1F5DC59200563D41 /* Lau Board macOS */ = {
+			isa = PBXGroup;
+			children = (
+				52D4A3DD1F5DC59200563D41 /* AppDelegate.swift */,
+				52D4A3DF1F5DC59200563D41 /* ViewController.swift */,
+				52F9CD251F5DE8A50037A4B5 /* CollectionViewItem.swift */,
+				52F9CD261F5DE8A50037A4B5 /* CollectionViewItem.xib */,
+				52D4A3E11F5DC59200563D41 /* Assets.xcassets */,
+				52D4A3E31F5DC59200563D41 /* Main.storyboard */,
+				52D4A3E61F5DC59200563D41 /* Info.plist */,
+				52D4A3E71F5DC59200563D41 /* Lau_Board_macOS.entitlements */,
+			);
+			path = "Lau Board macOS";
+			sourceTree = "<group>";
+		};
+		52D4A3EC1F5DCBAA00563D41 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				0C63A2081EE9D0B7000449A3 /* Sound Effects */,
+				52D4A3ED1F5DCBBF00563D41 /* Lau.swift */,
+				52D4A3EF1F5DCF4E00563D41 /* LauQuote.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,13 +206,30 @@
 			productReference = 0C63A1F11EE9C874000449A3 /* Lau Board.app */;
 			productType = "com.apple.product-type.application";
 		};
+		52D4A3DA1F5DC59200563D41 /* Lau Board macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D4A3E81F5DC59200563D41 /* Build configuration list for PBXNativeTarget "Lau Board macOS" */;
+			buildPhases = (
+				52D4A3D71F5DC59200563D41 /* Sources */,
+				52D4A3D81F5DC59200563D41 /* Frameworks */,
+				52D4A3D91F5DC59200563D41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lau Board macOS";
+			productName = "Lau Board macOS";
+			productReference = 52D4A3DB1F5DC59200563D41 /* Lau Board macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		0C63A1E91EE9C874000449A3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Ben Cullen";
 				TargetAttributes = {
@@ -151,6 +237,10 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = KZ7D8X3PRK;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					52D4A3DA1F5DC59200563D41 = {
+						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -169,6 +259,7 @@
 			projectRoot = "";
 			targets = (
 				0C63A1F01EE9C874000449A3 /* Lau Board */,
+				52D4A3DA1F5DC59200563D41 /* Lau Board macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -198,6 +289,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		52D4A3D91F5DC59200563D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F9CD2B1F5DEF7B0037A4B5 /* aye.wav in Resources */,
+				52D4A3E21F5DC59200563D41 /* Assets.xcassets in Resources */,
+				52D4A3E51F5DC59200563D41 /* Main.storyboard in Resources */,
+				52F9CD341F5DEF7B0037A4B5 /* putawayyourcellphone.wav in Resources */,
+				52F9CD301F5DEF7B0037A4B5 /* moses.wav in Resources */,
+				52F9CD281F5DE8A50037A4B5 /* CollectionViewItem.xib in Resources */,
+				52F9CD351F5DEF7B0037A4B5 /* seemepls.wav in Resources */,
+				52F9CD2C1F5DEF7B0037A4B5 /* candobetter.wav in Resources */,
+				52F9CD311F5DEF7B0037A4B5 /* ohh.wav in Resources */,
+				52F9CD321F5DEF7B0037A4B5 /* ohno.wav in Resources */,
+				52F9CD2D1F5DEF7B0037A4B5 /* doable.wav in Resources */,
+				52F9CD361F5DEF7B0037A4B5 /* verydoable.wav in Resources */,
+				52F9CD2E1F5DEF7B0037A4B5 /* java.wav in Resources */,
+				52F9CD291F5DEF7B0037A4B5 /* allright.wav in Resources */,
+				52F9CD2A1F5DEF7B0037A4B5 /* anyquestions.wav in Resources */,
+				52F9CD331F5DEF7B0037A4B5 /* ok.wav in Resources */,
+				52F9CD2F1F5DEF7B0037A4B5 /* lunch.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -205,9 +320,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D4A3F01F5DCF4E00563D41 /* LauQuote.swift in Sources */,
 				0C63A1F71EE9C874000449A3 /* CollectionViewController.swift in Sources */,
 				0C63A1F51EE9C874000449A3 /* AppDelegate.swift in Sources */,
+				52D4A3EE1F5DCBBF00563D41 /* Lau.swift in Sources */,
 				52D4A3D61F5DBB4300563D41 /* CollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D4A3D71F5DC59200563D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D4A3E01F5DC59200563D41 /* ViewController.swift in Sources */,
+				52D4A3DE1F5DC59200563D41 /* AppDelegate.swift in Sources */,
+				52D4A3F21F5DD02F00563D41 /* Lau.swift in Sources */,
+				52D4A3F11F5DD02D00563D41 /* LauQuote.swift in Sources */,
+				52F9CD271F5DE8A50037A4B5 /* CollectionViewItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +357,14 @@
 				0C63A1FE1EE9C875000449A3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		52D4A3E31F5DC59200563D41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52D4A3E41F5DC59200563D41 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -366,6 +503,48 @@
 			};
 			name = Release;
 		};
+		52D4A3E91F5DC59200563D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = "Lau Board macOS/Lau_Board_macOS.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Lau Board macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wwitdc.apollozhu.Lau-Board-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		52D4A3EA1F5DC59200563D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = "Lau Board macOS/Lau_Board_macOS.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Lau Board macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wwitdc.apollozhu.Lau-Board-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -383,6 +562,15 @@
 			buildConfigurations = (
 				0C63A2041EE9C875000449A3 /* Debug */,
 				0C63A2051EE9C875000449A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D4A3E81F5DC59200563D41 /* Build configuration list for PBXNativeTarget "Lau Board macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D4A3E91F5DC59200563D41 /* Debug */,
+				52D4A3EA1F5DC59200563D41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

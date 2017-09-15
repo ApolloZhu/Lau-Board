@@ -9,30 +9,9 @@
 import UIKit
 import AVFoundation
 
-class CollectionViewController: UICollectionViewController, AVAudioPlayerDelegate {
-
-    private var audioPlayer: AVAudioPlayer?
-    private lazy var audioSession: AVAudioSession = .init()
-
-    let soundReferences: [(displayName: String, fileName: String)] = [
-        ("Alrigth", "allright"),
-        ("Any Questions?", "anyquestions"),
-        ("AYE", "aye"),
-        ("Can Do Better", "candobetter"),
-        ("It's Doable", "doable"),
-        ("Cup of Java", "java"),
-        ("Lunchtime", "lunch"),
-        ("I'm Moses", "moses"),
-        ("OHH", "ohh"),
-        ("OH NO!", "ohno"),
-        ("OK", "ok"),
-        ("Put away Cell Phone", "putawayyourcellphone"),
-        ("See Me", "seemepls"),
-        ("VERY Doable", "verydoable")
-    ]
-
+class CollectionViewController: UICollectionViewController {
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return soundReferences.count
+        return Lau.only.quoteCount
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -43,18 +22,7 @@ class CollectionViewController: UICollectionViewController, AVAudioPlayerDelegat
     }
 
     @IBAction func playSound(_ sender: UIButton) {
-        let fileURL = Bundle.main.url(forResource: soundReferences[sender.tag].fileName, withExtension: "wav")!
-        // Create audio player with sound file
-        audioPlayer = try? AVAudioPlayer(contentsOf: fileURL)
-        audioPlayer?.prepareToPlay()
-        audioPlayer?.delegate = self
-        // Play sound using audio player
-        try? audioSession.setCategory(AVAudioSessionCategoryPlayback)
-        try? audioSession.setActive(true, with: .notifyOthersOnDeactivation)
-        audioPlayer?.play()
+        Lau.only.speakQuote(index: sender.tag)
    }
 
-    func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
-        try? audioSession.setActive(false, with: .notifyOthersOnDeactivation)
-    }
 }
