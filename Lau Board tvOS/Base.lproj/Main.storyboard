@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="13189.4" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oh5-sa-Q3Z">
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="13196" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oh5-sa-Q3Z">
     <device id="appleTV" orientation="landscape">
         <adaptation id="light"/>
     </device>
     <dependencies>
         <deployment identifier="tvOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13165.3"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -13,7 +13,7 @@
         <scene sceneID="2Rd-Kg-nzJ">
             <objects>
                 <collectionViewController id="oh5-sa-Q3Z" customClass="CollectionViewController" customModule="Lau_Board_tvOS" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="dXY-zr-aMg">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="dXY-zr-aMg" customClass="CollectionView" customModule="Lau_Board_tvOS" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="WzU-lc-prd">
@@ -44,6 +44,9 @@
                                     <constraint firstItem="F2E-N6-1Us" firstAttribute="leading" secondItem="rOe-uj-8VB" secondAttribute="leading" constant="20" id="qke-US-obS"/>
                                     <constraint firstItem="F2E-N6-1Us" firstAttribute="centerY" secondItem="rOe-uj-8VB" secondAttribute="centerY" id="xuH-pY-xEt"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="titleLabel" destination="F2E-N6-1Us" id="pbN-du-q75"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>

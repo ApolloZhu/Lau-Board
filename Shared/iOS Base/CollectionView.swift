@@ -11,11 +11,12 @@ import UIKit
 class CollectionView: UICollectionView {
     override func selectItem(at indexPath: IndexPath?, animated: Bool, scrollPosition: UICollectionViewScrollPosition) {
         super.selectItem(at: indexPath, animated: animated, scrollPosition: scrollPosition)
-        delegate?.collectionView(self, didSelectItemAt: indexPath)
+        guard let delegate = delegate, let indexPath = indexPath else { return }
+        delegate.collectionView?(self, didSelectItemAt: indexPath)
     }
-
+    
     override func deselectItem(at indexPath: IndexPath, animated: Bool) {
         super.deselectItem(at: indexPath, animated: animated)
-        delegate?.collectionView(self, didDeselectItemAt: indexPath)
+        delegate?.collectionView?(self, didDeselectItemAt: indexPath)
     }
 }

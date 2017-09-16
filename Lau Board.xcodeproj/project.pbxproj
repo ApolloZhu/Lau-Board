@@ -258,10 +258,6 @@
 		0C63A1F31EE9C874000449A3 /* Lau Board */ = {
 			isa = PBXGroup;
 			children = (
-				0C63A1F41EE9C874000449A3 /* AppDelegate.swift */,
-				0C63A1F61EE9C874000449A3 /* CollectionViewController.swift */,
-				5272E2531F6C91170073B2D0 /* CollectionView.swift */,
-				52D4A3D51F5DBB4300563D41 /* CollectionViewCell.swift */,
 				0C63A1F81EE9C874000449A3 /* Main.storyboard */,
 				0C63A1FB1EE9C875000449A3 /* Assets.xcassets */,
 				0C63A1FD1EE9C875000449A3 /* LaunchScreen.storyboard */,
@@ -301,6 +297,17 @@
 			path = "Lau Board tvOS";
 			sourceTree = "<group>";
 		};
+		52A6CD2D1F6CC4A500DC3512 /* iOS Base */ = {
+			isa = PBXGroup;
+			children = (
+				0C63A1F41EE9C874000449A3 /* AppDelegate.swift */,
+				0C63A1F61EE9C874000449A3 /* CollectionViewController.swift */,
+				5272E2531F6C91170073B2D0 /* CollectionView.swift */,
+				52D4A3D51F5DBB4300563D41 /* CollectionViewCell.swift */,
+			);
+			path = "iOS Base";
+			sourceTree = "<group>";
+		};
 		52D4A3DC1F5DC59200563D41 /* Lau Board macOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -319,9 +326,10 @@
 		52D4A3EC1F5DCBAA00563D41 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				0C63A2081EE9D0B7000449A3 /* Sound Effects */,
 				52D4A3ED1F5DCBBF00563D41 /* Lau.swift */,
 				52D4A3EF1F5DCF4E00563D41 /* LauQuote.swift */,
+				52A6CD2D1F6CC4A500DC3512 /* iOS Base */,
+				0C63A2081EE9D0B7000449A3 /* Sound Effects */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -905,7 +913,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "Lau Board macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wwitdc.apollozhu.Lau-Board-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -926,7 +934,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "Lau Board macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wwitdc.apollozhu.Lau-Board-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
