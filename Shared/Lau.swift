@@ -29,17 +29,17 @@ extension AVAudioPlayer: Player { func start() { play() } }
 public class Lau: NSObject, AVAudioPlayerDelegate {
     public static let only = Lau()
     private override init() { }
-
+    
     private var player: Player?
-
+    
     #if !os(macOS)
     private lazy var audioSession: AVAudioSession = .init()
     #endif
-
+    
     public func speakQuote(id: Int) {
         speakQuote(LauQuote.all[id])
     }
-
+    
     public func speakQuote(_ quote: LauQuote) {
         // Create audio player with sound file
         let url = quote.fileURL!
@@ -62,7 +62,7 @@ public class Lau: NSObject, AVAudioPlayerDelegate {
         }
         player?.start()
     }
-
+    
     @available(watchOSApplicationExtension 3.0, *)
     public func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
         #if !os(macOS)

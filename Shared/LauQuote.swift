@@ -12,7 +12,7 @@ public struct LauQuote {
     public let id: Int
     public let name: String
     private let fileName: String
-
+    
     public static let all: [LauQuote] = { [
         ("Alrigth", "allright"),
         ("Any Questions?", "anyquestions"),
