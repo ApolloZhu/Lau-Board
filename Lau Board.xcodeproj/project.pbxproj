@@ -171,6 +171,7 @@
 		5272E23A1F6C825D0073B2D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5272E23C1F6C825D0073B2D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5272E2531F6C91170073B2D0 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		5299D1B51F6DFBC600BD72C4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../../../apollonian/Documents/Git-Repo/Lau-Board/README.md"; sourceTree = "<group>"; };
 		52D4A3D51F5DBB4300563D41 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		52D4A3DB1F5DC59200563D41 /* Lau Board macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lau Board macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D4A3DD1F5DC59200563D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -233,6 +234,7 @@
 		0C63A1E81EE9C874000449A3 = {
 			isa = PBXGroup;
 			children = (
+				5299D1B51F6DFBC600BD72C4 /* README.md */,
 				52D4A3EC1F5DCBAA00563D41 /* Shared */,
 				0C63A1F31EE9C874000449A3 /* Lau Board */,
 				5272E2321F6C825D0073B2D0 /* Lau Board tvOS */,
@@ -870,7 +872,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "Lau Board tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wwitdc.apollozhu.Lau-Board-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.apollozhu.Lau-Board";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 4.0;
@@ -891,7 +893,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "Lau Board tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wwitdc.apollozhu.Lau-Board-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.apollozhu.Lau-Board";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 4.0;
@@ -914,7 +916,7 @@
 				INFOPLIST_FILE = "Lau Board macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wwitdc.apollozhu.Lau-Board-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.apollozhu.Lau-Board-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 4.0;
@@ -935,7 +937,7 @@
 				INFOPLIST_FILE = "Lau Board macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wwitdc.apollozhu.Lau-Board-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.apollozhu.Lau-Board-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 4.0;
